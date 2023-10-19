@@ -1,0 +1,5 @@
+#id #firstname selects the element with id = “first name”
+.class .intro selects small elements with class = “intro”
+* * selects all elements
+Element p selects all <p> elements
+Element, element,... div, p selects all <div> elemnts and all <p> elements
