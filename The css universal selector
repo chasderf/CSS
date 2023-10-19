@@ -1,0 +1,7 @@
+The CSS universal selector is (*) which selects all HTML elements on the page
+
+The CSS rule below will affect every HTML element on the page
+*{
+Text-align:center;
+Color:blue;
+}
