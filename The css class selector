@@ -1,0 +1,15 @@
+The class selector selects HTML elements with a specific class attribute
+To select elements with a specific class, write a period (.) character followed by the class name
+.center {
+Text-align: center;
+Color-red;
+}
+In this example only <p> elements with class = “center” will be red and center-aligned
+P.center {
+Text-align:center;
+Color: red;
+}
+HTML elements can also refer to more than one class
+<p class = “center large”> this paragraph refers to two classes. </p>
+
+The CSS
