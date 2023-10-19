@@ -1,0 +1,22 @@
+The grouping selector selects all the HTML elements with the same style definitions
+Look at the following CSS code (the H1, h2, and p element shave the same style definitions)
+H1 {
+Text-align: center;
+color:red;
+}
+H2 {
+Text-align:center;
+Color:red;
+}
+P {
+Text-align:center;
+Color:red;
+}
+It will be better to group the selectors, to minimize the code
+
+To group selectors, seerate each selector with a comma
+Ideally::
+H1, h2, p {
+Text-align:center;
+Color: red;
+}
